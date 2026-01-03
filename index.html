@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WatchNat</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      div.scrollmenu {
+  background-color: #65055d;
+  overflow: auto;
+  white-space: nowrap;
+  
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+div.scroll-container {
+  background-color: none;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(216, 10, 206);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: rgb(248, 246, 246) 0px 0px 10px;
+}
+
+.container .btn:hover {
+  background-color: rgb(182, 20, 174);
+}
+
+    </style>
+    
+
+</head>
+<body style="background-color: black; margin: 0; padding: 0;">
+ <a href="./index.html" style="margin-bottom: 0;"><img src="./Logo/WatchNat Assets/W__3_-removebg-preview.png" alt="WatchNat Logo" width="120"></a>
+
+<div style="width: 280px; height: 280px; margin: 0 auto; padding: 0; background-color: rgb(251, 251, 251); border-radius: 8px; box-shadow: 0 0 10px rgba(146, 11, 130, 0.997);">
+  <img src="./Logo/WatchNat Assets/stranger things.jpg" alt="stranger things 5" width="100%" height="100%">
+   <div class="container" style="position: relative; text-align: center; color: white;">
+   <button class="btn">PLAY</button>
+</div>
+
+</div>
+
+ <div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="Home">Home</a>
+  <a href="live.html">WatchLive</a>
+  <a href="Latest Movies">Latest Movies</a>
+  <a href="carribean movies">Caribbean Movies</a>
+  <a href="Action Movies">Action Movies</a>
+  <a href="Comedy Movies">Comedy Movies</a>
+  <a href="Science-fiction">Science-fiction</a>
+  <a href="Horror Movies">Horror Movies</a>
+  <a href="Romance Movies">Romance Movies</a>
+
+</div>
+
+<div id="main" style="position: absolute; top: 10px; right: 10px;">
+  <button class="openbtn" onclick="openNav()" style="width: 55px;">☰</button>  
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "200px";
+  document.getElementById("main").style.marginLeft = "200px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<br />
+<br />
+<br />
+<h1 style="color: white;">Free Movies</h1> 
+<div class="scroll-container">
+        <img src="./Logo/WatchNat Assets/Billy the Kid returns.jpeg" alt="Billy the Kid returns" width="30%" height="20%" </a>
+         <img src="./Logo/WatchNat Assets/house on haunted hill 1959.webp" alt="House on Haunted Hill" width="25%" height="20%">
+        <img src="./Logo/WatchNat Assets/The day the earth stood still.jpg" alt="The day the earth stood still" width="24%" height="20%">
+        <img src="./Logo/WatchNat Assets/Frankenstein.jpg" alt="Frankenstein" width="30%" height="20%">
+        <img src="./Logo/WatchNat Assets/The invisible man.jpg" alt="The invisible man" width="50%" height="13%">
+</div>
+
+   <h1>Actions</h1>
+        <img src="./Logo/WatchNat Assets/Action Movies.jpg" alt="Action Movies" width="45%">
+        <h1>Comedy</h1>
+        <img src="./Logo/WatchNat Assets/Comedie Movies.jpg" alt="Comedy Movies" width="45%">
+    </div>
+            
+  <h1>Adventure</h1>    
+<footer>
+
+    <p style="color: white; text-align: center;">&copy; 2023 WatchNat. All rights reserved.</p>
+    <div style="text-align: center;">
+        <a style="text-decoration: none; margin: 0 15px;" href="https://www.facebook.com/" target="_blank">
+            <img src="./Logo/WatchNat Assets/facebook logo.png" alt="Facebook" width="50">
+        </a>
+        <a style="text-decoration: none; margin: 0 15px;" href="https://www.twitter.com/" target="_blank">
+            <img src="./Logo/WatchNat Assets/twiter logo.png" alt="Twitter" width="50">
+        </a>
+        <a style="text-decoration: none; margin: 0 15px;" href="https://www.instagram.com/" target="_blank">
+            <img src="./Logo/WatchNat Assets/instagram logo.png" alt="Instagram" width="50">
+        </a>
+        <a style="text-decoration: none; margin: 0 15px;" href="https://www.youtube.com/" target="_blank">
+            <img src="./Logo/WatchNat Assets/youtube logo.png" alt="YouTube" width="50">
+        </a>
+        
+    </div>
+
+  <div class="scrollmenu">
+    <a href="./index.html">Home</a>
+    <a href="./live.html">WatchLive</a>
+    <a href="./latest.html">Latest Movies</a>
+    <a href="./carribean.html">Caribbean Movies</a>
+    <a href="./action.html">Action Movies</a>
+    <a href="./comedy.html">Comedy Movies</a>
+    <a href="./sciencefiction.html">Science-fiction</a>
+    <a href="./horror.html">Horror Movies</a>
+    <a href="./romance.html">Romance Movies</a>
+    <a href="./about.html">About Us</a>
+    <a href="./contact.html">Contact Us</a>
+    <a href="./privacy.html">Privacy Policy</a>
+</div>
+    
+</footer>
+
+</body>
+</html>
